@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
+import EVIDENTLY from "@/public/EVIDENTLY.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -35,20 +36,20 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "e-library",
+    location: "Djibouti, Djibouti",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 7 months of studying. I immediately found a job as a full-stack developer.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
-    title: "Front-End Developer",
+    title: "ArchiveApp",
     location: "Orlando, FL",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer for 1 years in 1 job. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022",
   },
   {
     title: "Full-Stack Developer",
@@ -62,25 +63,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "e-library",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I developed an e-library specifically for university purposes, designed to offer several significant advantages tailored to the needs of students, faculty, and the institution.",
+    tags: ["Django", "Tailwind", "MySql"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "ArchiveApp",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "The ArchiveApp I developed is designed to offer a comprehensive solution for managing and preserving important documents and records particularly in Company.",
+    tags: ["Laravel", , "javascript.js", "bootstrap"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "EVIDENTLY",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "The tool I developed for describing data analytics related to identity cards offers valuable insights into the distribution and trends of new and old identity cards within a user base.",
+    tags: ["Python", "Jubiter", "PGSQL", "Pandas", "Streamlit"],
+    imageUrl: EVIDENTLY,
   },
 ] as const;
 
