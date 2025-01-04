@@ -73,7 +73,7 @@ export default function Contact() {
 
           {/* Email Contact */}
           <motion.a
-            href="mailto:your.email@example.com"
+            href="mailto:contact@aminhsn.pro"
             className="flex items-center justify-center gap-3 p-4 transition-all duration-300 bg-white shadow-md group dark:bg-white/5 rounded-xl hover:shadow-xl hover:-translate-y-1"
             variants={itemVariants}
           >
@@ -105,7 +105,7 @@ export default function Contact() {
 
           {/* GitHub */}
           <motion.a
-            href="https://github.com/yourusername"
+            href="https://github.com/AminHassanDouale"
             className="flex items-center justify-center gap-3 p-4 transition-all duration-300 bg-white shadow-md group dark:bg-white/5 rounded-xl hover:shadow-xl hover:-translate-y-1"
             target="_blank"
             rel="noopener noreferrer"
