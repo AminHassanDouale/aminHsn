@@ -3,7 +3,7 @@ import Blog from "@/components/blog";
 import Contact from "@/components/contact";
 import Intro from "@/components/intro";
 import Projects from "@/components/projects";
-import Skills from "@/components/skills";
+import Skills from "@/components/experience";
 import SectionDivider from "@/components/section-divider";
 
 export default function Home() {
